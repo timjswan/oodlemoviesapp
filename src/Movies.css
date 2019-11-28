@@ -1,0 +1,64 @@
+.movies-container {
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 1.5em;
+}
+
+.title {
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.movie {
+  margin: 1em;
+  display: flex;
+  background: #FFF;
+  color: #000020;
+  text-align: left;
+  float: left;
+}
+
+.poster {
+  flex: 0 0 200px;
+  max-height: 300px;
+}
+
+.movie-info {
+  margin: 1em;
+}
+
+.btn {
+  color: #FFF;
+  background: #800000;
+  border: none;
+  font-size: 1.5em;
+  text-align: center;
+  padding: .5em 1em;
+  border-radius: .5em;
+}
+
+.btn:hover {
+  background: #900000;
+  cursor: pointer;
+}
+
+.movies-container-footer {
+  clear: both;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.backtotop {
+  position: fixed;
+  left: calc(87.5% - 32px);
+  bottom: 1em;
+  z-index: 99;
+}
