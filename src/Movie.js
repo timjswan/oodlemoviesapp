@@ -15,7 +15,7 @@ class Movie extends Component {
 
 		/* Build all the movie data into the HTML we want */
 		return(
-			<div className="movie" style={{ animation: "fadeIn 1s" }}>
+			<div className="movie" data-testid="movie" style={{ animation: "fadeIn 1s" }}>
 				{movie == null ? (
 					<p>Movie doesn't exist</p>
 				) : (

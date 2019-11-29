@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Button from 'react-bootstrap/Button';
 
 class ScrollToTop extends Component {
 	constructor(props){
@@ -23,7 +24,7 @@ class ScrollToTop extends Component {
 
 	render() {
 		return (
-			<a href="#" onClick={this.scroll} className="backtotop"><img src="img/backtotop.png" alt="Back to the top." /></a>
+			<Button onClick={this.scroll} className="backtotop"><img src="img/backtotop.png" alt="Back to the top." /></Button>
 		);
 	}
 }

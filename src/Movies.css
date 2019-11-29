@@ -61,4 +61,11 @@
   left: calc(87.5% - 32px);
   bottom: 1em;
   z-index: 99;
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+}
+
+.backtotop:hover {
+  background: transparent;
 }
